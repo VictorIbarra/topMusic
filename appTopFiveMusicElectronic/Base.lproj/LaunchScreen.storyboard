@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1114" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tieesto.png" translatesAutoresizingMaskIntoConstraints="NO" id="vxt-s7-FCL">
+                                <rect key="frame" x="67" y="183.5" width="240" height="300"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top 5 Music Electronic " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="bOg-Vk-OIW">
+                                <rect key="frame" x="34" y="139.5" width="299.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.15091365575790405" green="0.26747506856918335" blue="0.95987135171890259" alpha="0.8678752200704225" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="2" height="-1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.017442712560296059" green="0.0084222666919231415" blue="0.0082817263901233673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vxt-s7-FCL" firstAttribute="top" secondItem="bOg-Vk-OIW" secondAttribute="bottom" constant="8" id="1iS-lX-Vn0"/>
+                            <constraint firstItem="vxt-s7-FCL" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2wg-DF-agG"/>
+                            <constraint firstItem="vxt-s7-FCL" firstAttribute="top" secondItem="bOg-Vk-OIW" secondAttribute="bottom" constant="8" id="7UA-qi-Qyp"/>
+                            <constraint firstItem="vxt-s7-FCL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="avJ-Hv-r6X"/>
+                            <constraint firstItem="vxt-s7-FCL" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="51" id="nFU-6n-OTA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vxt-s7-FCL" secondAttribute="trailing" constant="52" id="nPh-jY-PdH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bOg-Vk-OIW" secondAttribute="trailing" constant="25.5" id="ngw-5f-iH4"/>
+                            <constraint firstItem="bOg-Vk-OIW" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="18" id="zga-p1-qX6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tieesto.png" width="300" height="300"/>
+    </resources>
+</document>
